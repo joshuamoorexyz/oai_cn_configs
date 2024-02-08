@@ -46,18 +46,18 @@ nfs:
     sbi:
       port: 8080
       api_version: v1
-      interface_name: eth0
+      interface_name: lo
     n2:
-      interface_name: eth0
+      interface_name: lo
       port: 38412
   smf:
     host: oai-smf
     sbi:
-      port: 8080
+      port: 8081
       api_version: v1
-      interface_name: eth0
+      interface_name: lo
     n4:
-      interface_name: eth0
+      interface_name: lo
       port: 8805
   upf:
     host: oai-upf
